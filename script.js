@@ -7,8 +7,7 @@ function generateHex() {
   let result = "#";
 
   for (let i = 0; i < 6; i++) {
-    //Math.random() needed be multiplied by 17, cause the last number isn't inclusive
-    result += resources[Math.floor(Math.random() * 17)];
+    result += resources[Math.floor(Math.random() * 16)];
   }
 
   return result;
